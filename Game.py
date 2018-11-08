@@ -33,7 +33,7 @@ while class_1 not in ('W', 'K', 'A'):
     else:
         print('Please enter W, K or A.')
 
-print('Then rise', hero_name + '.')
+print('Then rise, ' + hero_name + '.')
 if class_1 == 'W':
     print('You have chosen to be a wizard!')
 if class_1 == 'K':
@@ -202,7 +202,7 @@ if direction_1 == 'E':
                         fight_1_1_2 = random.randint(0, 6)
                         if fight_1_1_2 == 0:
                             print('You manage to defeat all of your attackers. You then decide to loot them.')
-                            gold = +13
+                            gold = gold + 13
                             print('You manage to find Gold.')
                             print('You now have', gold, 'Gold.')
                         elif fight_1_1_2 > 0:
@@ -218,7 +218,7 @@ if direction_1 == 'E':
             if fight_1 == 0:
                 print('You manage to defeat your attackers.')
                 print('You manage to defeat all of your attackers. You then decide to loot them.')
-                gold = +13
+                gold = gold + 13
                 print('You manage to find Gold.')
                 print('You now have', gold, 'Gold.')
             elif fight_1 > 0:
@@ -368,7 +368,7 @@ if direction_1 == 'E':
                 if attack_1_1 == 0:
                     print('You manage to defeat your attacker.')
                     print('After killing your attacker, you decide to loot him.')
-                    gold = +4
+                    gold = gold + 13
                     print('You now have', gold, 'Gold.')
                 elif attack_1_1 > 0:
                     print('Your attacker manages to get in a good blow. He then finishes you off.')
@@ -383,7 +383,7 @@ if direction_1 == 'E':
                 if attack_1_1 == 0:
                     print('You manage to defeat your attacker.')
                     print('After killing your attacker, you decide to loot him.')
-                    gold = +4
+                    gold = gold + 13
                     print('You now have', gold, 'Gold.')
                 elif attack_1_1 > 0:
                     print('Your attacker manages to get in a good blow. He then finishes you off.')
