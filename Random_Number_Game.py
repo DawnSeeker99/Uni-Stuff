@@ -15,6 +15,7 @@ while 1:
 
         elif guess <= number:
             print('Try a higher number')
+
     except ValueError:
         print('Stop trying to break me. Enter a valid number.')
 

@@ -1,3 +1,1 @@
-from math import ceil
-
-while True
+print('Hello, Zach.')
